@@ -84,3 +84,44 @@
 # saldoMeu = ContaBancaria('salomao', 200, True)
 
 # print(saldoMeu)
+
+# class Livro:
+
+#     livros = []
+
+#     def __init__(self, titulo = '', autor = '', ano_publicacao = 0, disponivel = True):
+#         self._titulo = titulo
+#         self._autor = autor
+#         self._ano_publicacao = ano_publicacao
+#         self._disponivel = disponivel
+#         Livro.livros.append(self) #adiciona o __init__ cada vez que é criado
+
+#     def __str__(self):
+#             return f'{self._titulo} | {self._autor} | {self._ano_publicacao} | {self._disponivel}' #retorna algo legivel
+
+#     @classmethod
+#     def exibir(cls):
+#         for livro in cls.livros:
+#               print(f'{livro._titulo.ljust(25)} | {livro._autor.ljust(25)} | {str(livro._ano_publicacao).ljust(25)} | {livro.ativo}')
+#               # mostra todos os livros dentro de livros = []
+#     @property
+#     def ativo(self):
+#         return 'Está disponivel' if self._disponivel else 'Não está disponivel' # troca o true e o false
+
+#     @property
+#     def emprestarLivro(self):
+#         return 'Esta disponivel' if self._disponivel == True else 'Não esta disponivel'
+    
+#     def verificar_disponibilidade(self):
+#          if self._disponivel == False:
+#               return print('Livro não esta disponivel')
+#          else:
+#               return print('Livro disponivel') #verifica se o livro esta disponivel ou não
+    
+
+# livro1 = Livro('O Hobbit', 'J.J.R Tolkien', '1958', True)
+# livro2 = Livro('O Senhor dos anéis', 'J.J.R Tolkien', '1960', True)
+
+
+# livro1.exibir()
+        
