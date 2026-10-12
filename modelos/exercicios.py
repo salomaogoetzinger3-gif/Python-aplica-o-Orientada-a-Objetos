@@ -124,4 +124,41 @@
 
 
 # livro1.exibir()
-        
+
+
+# class Banco:
+#     def __init__(self, nome, endereco):
+#         self._nome = nome
+#         self._endereco = endereco
+
+# class Agencia(Banco):
+#     def __init__(self, nome, endereco, numero):
+#         super().__init__(nome, endereco)
+    
+
+# class Veiculo:
+#     def __init__(self, modelo, marca, estado):
+#         self._modelo = modelo
+#         self._marca = marca
+#         self._estado = estado
+
+#     def __str__(self):
+#         return f' Modelo do veículo: {self._modelo}, Marca: {self._marca} e Estado: {self._estado}'
+
+# class Carro(Veiculo):
+#     def __init__(self, modelo, marca, estado, portas):
+#         super().__init__(modelo, marca, estado)
+#         self._portas = portas
+#     def __str__(self):
+#         return f'{super().__str__()}, com Nº de portas: {self._portas}'
+
+# class Moto(Veiculo):
+#     def __init__(self, modelo, marca, estado, tipo):
+#         super().__init__(modelo, marca, estado)
+#         self._tipo = tipo
+#     def __str__(self):
+#         return f'{super().__str__()}, a moto é do tipo: {self._tipo}'
+
+# moto = Moto('Moto', 'Yamaha', 'Novo', 'Casual')
+
+# print(moto)
